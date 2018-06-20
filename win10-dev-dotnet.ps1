@@ -24,7 +24,6 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 #--- Define Packages to Install ---
 $ChocoCorePackages = 'python',`
             'nodejs',`
-            'jre8',`
             'git.install',`
             'git-credential-manager-for-windows',` 
             'paket',`
@@ -39,7 +38,6 @@ $ChocoToolsPackages = 'ngrok.portable',`
             'adobereader',`
             'conemu',`
             'postman',`
-            'brave',`
             'jetbrains-rider',`
             'datagrip',`
             'postman',`
