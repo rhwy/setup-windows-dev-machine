@@ -26,6 +26,8 @@ $ChocoCorePackages = 'python',`
             'nodejs',`
             'jre8',`
             'git.install',`
+            'git-credential-manager-for-windows',` 
+            'paket',`
             'dotnetcore-sdk',`
             'FiraCode',`
             'dotnet4.7.2',`
@@ -37,7 +39,11 @@ $ChocoToolsPackages = 'ngrok.portable',`
             'adobereader',`
             'conemu',`
             'postman',`
-            'firefox',`
+            'brave',`
+            'jetbrains-rider',`
+            'datagrip',`
+            'postman',`
+            'procexp',`
             'visualstudio2017community',`
             'visualStudioCode',`
             'vscode-csharp',`
