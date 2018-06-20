@@ -67,10 +67,6 @@ ForEach ($PackageName in $ChocoCorePackages)
 ForEach ($toolName in $ChocoToolsPackages)
 {cinst $toolName -y}
 
-#--- complementary Tools/Features ---
-
-pip install --upgrade pip setuptools
-pip install —upgrade httpie
 
 Enable-UAC
 Enable-MicrosoftUpdate
